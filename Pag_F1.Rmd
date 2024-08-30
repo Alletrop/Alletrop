@@ -1,0 +1,56 @@
+---
+title: "Fórmula 1"
+output: 
+  html_document:
+    css: styles.css
+---
+
+<!-- Cabeçalho -->
+<header>
+    <h1></h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">Notícias</a></li>
+            <li><a href="https://www.ferrari.com">Equipes</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Conteúdo principal -->
+<main>
+    <section id="news">
+        <h2>Últimas Notícias</h2>
+        <p>Acompanhe as últimas notícias da Fórmula 1 aqui.</p>
+    </section>
+
+  <section id="teams">
+        <h2>Equipes</h2>
+        <p>Informações sobre as equipes da Fórmula 1.</p>
+    </section>
+    
+   <!-- Carrossel de Imagens -->
+    <section id="carousel">
+        <div class.carousel-container>
+            <div class="carousel-slide">
+                <img src="Aphatauri1.PNG" alt="Imagem 1">
+                <img src="Aphatauri2.jpeg" alt="Imagem 2">
+                <img src="Aphatauri3.jpeg" alt="Imagem 3">
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2024 Página de Fórmula 1. Todos os direitos reservados.</p>
+    <nav>
+        <ul>
+            <li><a href="#privacy">Política de Privacidade</a></li>
+            <li><a href="#terms">Termos de Uso</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<script src="carrosel.js"></script>

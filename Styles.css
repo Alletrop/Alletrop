@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px; /* Define a largura máxima do carrossel */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 1s ease; /* Transição suave de 1 segundo */
+}
+
+.carousel-slide img {
+    min-width: 100%; /* Cada imagem ocupa 100% da largura do contêiner */
+    max-height: 400px; /* Define a altura máxima das imagens */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
